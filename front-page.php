@@ -1,1 +1,5 @@
-this is the front page
+<?php get_header(); ?>
+
+Home Page
+
+<?php get_footer(); ?>
