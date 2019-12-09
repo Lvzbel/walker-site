@@ -1,32 +1,35 @@
 <?php
+/**
+ * Understrap functions and definitions
+ *
+ * @package understrap
+ */
 
-function load_css()
-{
-  // Loading Bootstrap
-  wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(),false, 'all');
-  wp_enqueue_style('bootstrap');
+// Exit if accessed directly.
+defined( 'ABSPATH' ) || exit;
 
-  // Loading main.css
-  wp_register_style('main', get_template_directory_uri() . '/css/main.css', array(),false, 'all');
-  wp_enqueue_style('main');
-}
-add_action('wp_enqueue_scripts', 'load_css');
-
-function load_js()
-{
-  wp_enqueue_script( 'jquery' );
-  
-  wp_register_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', 'jquery', false, true );
-  wp_enqueue_script( 'bootstrap' );
-}
-add_action( 'wp_enqueue_scripts', 'load_js' );
-
-// Theme options
-add_theme_support( 'menus' );
-
-// Menus
-register_nav_menus( 
-  array(
-    'nav-bar' => 'Main NavBar'
-  )
+$understrap_includes = array(
+	'/theme-settings.php',                  // Initialize theme default settings.
+	'/setup.php',                           // Theme setup and custom theme supports.
+	'/widgets.php',                         // Register widget area.
+	'/enqueue.php',                         // Enqueue scripts and styles.
+	'/template-tags.php',                   // Custom template tags for this theme.
+	'/pagination.php',                      // Custom pagination for this theme.
+	'/hooks.php',                           // Custom hooks.
+	'/extras.php',                          // Custom functions that act independently of the theme templates.
+	'/customizer.php',                      // Customizer additions.
+	'/custom-comments.php',                 // Custom Comments file.
+	'/jetpack.php',                         // Load Jetpack compatibility file.
+	'/class-wp-bootstrap-navwalker.php',    // Load custom WordPress nav walker.
+	'/woocommerce.php',                     // Load WooCommerce functions.
+	'/editor.php',                          // Load Editor functions.
+	'/deprecated.php',                      // Load deprecated functions.
 );
+
+foreach ( $understrap_includes as $file ) {
+	$filepath = locate_template( 'inc' . $file );
+	if ( ! $filepath ) {
+		trigger_error( sprintf( 'Error locating /inc%s for inclusion', $file ), E_USER_ERROR );
+	}
+	require_once $filepath;
+}
