@@ -29,3 +29,17 @@
     background-position: center;
   }
 }
+
+.main {
+  &__block {
+    padding: 3rem 1rem;
+    color: white;
+  }
+  &__events {
+    background-color: $secondary;
+  }
+
+  &__blog {
+    background-color: $primary;
+  }
+}

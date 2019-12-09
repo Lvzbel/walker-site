@@ -41,4 +41,44 @@
   </div>
 </header>
 
+<!--- Main Body -->
+<div class="container">
+  <div class="row">
+    <div class="main__events main__block col-12 col-md-6">
+      <h3>Upcoming Events</h3>
+      <p>Stay up to date with everything going on about me.</p>
+      <div class="events">
+        <div class="events__event">
+          <i class="events__icon fa fa-music" aria-hidden="true"></i>
+          <p class="events__date">
+            12/12/2019</p>
+          <a href="#" class="text-light">National Orange Show Event Center</a>
+        </div>
+        <div class="events__event">
+          <i class="events__icon fa fa-music" aria-hidden="true"></i>
+          <p class="events__date">
+            12/12/2019</p>
+          <a href="#" class="text-light">National Orange Show Event Center</a>
+        </div>
+        <div class="events__event">
+          <i class="events__icon fa fa-music" aria-hidden="true"></i>
+          <p class="events__date">
+            12/12/2019</p>
+          <a href="#" class="text-light">National Orange Show Event</a>
+        </div>
+        <div class="events__event">
+          <i class="events__icon fa fa-music" aria-hidden="true"></i>
+          <p class="events__date">
+            12/12/2019</p>
+          <a href="#" class="text-light">National Orange Show Event Center</a>
+        </div>
+      </div>
+    </div>
+    <div class="main__blog main__block col-12 col-md-6">
+      <h3>Most Recent Blog Posts</h3>
+      <p>Checkout about writting and more.</p>
+    </div>
+  </div>
+</div>
+
 <?php get_footer(); ?>
