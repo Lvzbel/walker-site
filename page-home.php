@@ -46,34 +46,40 @@
   <div class="row">
     <!-- EVENTS -->
     <div class="main__events main__block col-12 col-md-6">
-      <h3>Upcoming Events</h3>
-      <p>Stay up to date with everything going on about me.</p>
-      <div class="events">
-        <div class="events__event">
-          <i class="events__icon fa fa-music" aria-hidden="true"></i>
-          <p class="events__date">
-            12/12/2019</p>
-          <a href="#" class="text-light">National Orange Show Event Center</a>
+      <div class="main__spacer">
+        <h3>Upcoming Events</h3>
+        <p>Stay up to date with everything going on about me.</p>
+      </div>
+      <div class="main__spacer">
+        <div class="events">
+          <div class="events__event">
+            <i class="events__icon fa fa-music" aria-hidden="true"></i>
+            <p class="events__date">
+              12/12/2019</p>
+            <a href="#" class="text-light">National Orange Show Event Center</a>
+          </div>
+          <div class="events__event">
+            <i class="events__icon fa fa-music" aria-hidden="true"></i>
+            <p class="events__date">
+              12/12/2019</p>
+            <a href="#" class="text-light">National Orange Show Event Center</a>
+          </div>
+          <div class="events__event">
+            <i class="events__icon fa fa-music" aria-hidden="true"></i>
+            <p class="events__date">
+              12/12/2019</p>
+            <a href="#" class="text-light">National Orange Show Event</a>
+          </div>
+          <div class="events__event">
+            <i class="events__icon fa fa-music" aria-hidden="true"></i>
+            <p class="events__date">
+              12/12/2019</p>
+            <a href="#" class="text-light">National Orange Show Event Center</a>
+          </div>
         </div>
-        <div class="events__event">
-          <i class="events__icon fa fa-music" aria-hidden="true"></i>
-          <p class="events__date">
-            12/12/2019</p>
-          <a href="#" class="text-light">National Orange Show Event Center</a>
-        </div>
-        <div class="events__event">
-          <i class="events__icon fa fa-music" aria-hidden="true"></i>
-          <p class="events__date">
-            12/12/2019</p>
-          <a href="#" class="text-light">National Orange Show Event</a>
-        </div>
-        <div class="events__event">
-          <i class="events__icon fa fa-music" aria-hidden="true"></i>
-          <p class="events__date">
-            12/12/2019</p>
-          <a href="#" class="text-light">National Orange Show Event Center</a>
-        </div>
-        <a href="#" class="btn btn-primary btn-lg">View Events</a>
+      </div>
+      <div class="main__spacer">
+        <a href="#" class="events__btn btn btn-primary btn-lg">View Events</a>
       </div>
     </div>
     <!-- BLOG POSTS -->
