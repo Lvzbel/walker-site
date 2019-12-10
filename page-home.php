@@ -113,21 +113,33 @@
       </div>
     </div>
   </div>
+</div>
 
-  <!-- Who is -->
-  <div class="whois">
-    <h2 class="whois__header">Who is Ella Walker</h2>
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <img class="whois__img" src="<?php echo get_theme_file_uri('/src/images/whois.jpg') ?>" alt="">
+<div class="container">
+  <div class="row">
+    <!-- Who is -->
+    <div class="whois">
+      <h2 class="whois__header display-4">Who is Ella Walker</h2>
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <img class="whois__img shadow" src="<?php echo get_theme_file_uri('/src/images/whois.jpg') ?>" alt="">
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="whois__content">
+            <p class="whois__text">Summary goes here!!!!!! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae eligendi sit
+              quam fuga voluptate beatae
+              iste vel. At, facere assumenda? Tenetur repellendus, saepe odit quibusdam reiciendis distinctio possimus
+              porro
+              voluptate.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, voluptates? Architecto, eligendi
+              assumenda! Ipsa magni ex atque est, dicta cumque ab vitae doloremque molestiae maxime sit numquam quam
+              temporibus? Minus!
+            </p>
+          </div>
+        </div>
+        <a href="#" class="whois__btn btn btn-primary btn-lg">Learn More</a>
       </div>
-      <div class="col-12 col-md-6">
-        <p>Summary goes here!!!!!! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi sit
-          quam fuga voluptate beatae
-          iste vel. At, facere assumenda? Tenetur repellendus, saepe odit quibusdam reiciendis distinctio possimus porro
-          voluptate.</p>
-      </div>
-      <a href="#" class="btn btn-primary">Learn More</a>
     </div>
   </div>
 </div>
