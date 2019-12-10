@@ -84,27 +84,33 @@
     </div>
     <!-- BLOG POSTS -->
     <div class="main__blog main__block col-12 col-md-6">
-      <h3>Most Recent Blog Posts</h3>
-      <p>Checkout about writting and more.</p>
-      <ul class="blog-preview">
-        <li class="blog-preview__post">
-          <h5 class="blog-preview__title">Blog Post 1</h5>
-          <p class="blog-preview__date">
-            12/9/19
-          </p>
-          <p class="blog-preview__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.</p>
-        </li>
-        <li class="blog-preview__post">
-          <h5 class="blog-preview__title">Blog Post 1</h5>
-          <p class="blog-preview__date">
-            12/9/19
-          </p>
-          <p class="blog-preview__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.</p>
-        </li>
-      </ul>
-      <a href="#" class="btn btn-secondary btn-lg">View Blog</a>
+      <div class="main__spacer">
+        <h3>Most Recent Blog Posts</h3>
+        <p>Checkout about writting and more.</p>
+      </div>
+      <div class="main__spacer">
+        <ul class="blog-preview">
+          <li class="blog-preview__post">
+            <h5 class="blog-preview__title">Blog Post 1</h5>
+            <p class="blog-preview__date">
+              12/9/19
+            </p>
+            <p class="blog-preview__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+          </li>
+          <li class="blog-preview__post">
+            <h5 class="blog-preview__title">Blog Post 1</h5>
+            <p class="blog-preview__date">
+              12/9/19
+            </p>
+            <p class="blog-preview__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="main__spacer">
+        <a href="#" class="btn btn-secondary btn-lg">View Blog</a>
+      </div>
     </div>
   </div>
 </div>
