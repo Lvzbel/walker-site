@@ -4,7 +4,7 @@
 <header class="jumbotron header">
   <div class="header__container">
     <h1 class="display-2">Ella Walker </h1>
-    <p>Country music artist out to change what you expect from country music!</p>
+    <p class="lead">Country music artist out to change what you expect from country music!</p>
     <a class="btn btn-primary" href="#">Read More</a>
   </div>
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -44,6 +44,7 @@
 <!--- Main Body -->
 <div class="container">
   <div class="row">
+    <!-- EVENTS -->
     <div class="main__events main__block col-12 col-md-6">
       <h3>Upcoming Events</h3>
       <p>Stay up to date with everything going on about me.</p>
@@ -72,11 +73,32 @@
             12/12/2019</p>
           <a href="#" class="text-light">National Orange Show Event Center</a>
         </div>
+        <a href="#" class="btn btn-primary btn-lg">View Events</a>
       </div>
     </div>
+    <!-- BLOG POSTS -->
     <div class="main__blog main__block col-12 col-md-6">
       <h3>Most Recent Blog Posts</h3>
       <p>Checkout about writting and more.</p>
+      <ul class="blog-preview">
+        <li class="blog-preview__post">
+          <h5 class="blog-preview__title">Blog Post 1</h5>
+          <p class="blog-preview__date">
+            12/9/19
+          </p>
+          <p class="blog-preview__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+        <li class="blog-preview__post">
+          <h5 class="blog-preview__title">Blog Post 1</h5>
+          <p class="blog-preview__date">
+            12/9/19
+          </p>
+          <p class="blog-preview__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+        </li>
+      </ul>
+      <a href="#" class="btn btn-secondary btn-lg">View Blog</a>
     </div>
   </div>
 </div>
