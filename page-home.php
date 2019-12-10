@@ -92,24 +92,24 @@
         <ul class="blog-preview">
           <li class="blog-preview__post">
             <h5 class="blog-preview__title">Blog Post 1</h5>
-            <p class="blog-preview__date">
-              12/9/19
-            </p>
+            <div class="blog-preview__date">
+              Date posted 12/9/19
+            </div>
             <p class="blog-preview__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua.</p>
           </li>
           <li class="blog-preview__post">
-            <h5 class="blog-preview__title">Blog Post 1</h5>
-            <p class="blog-preview__date">
-              12/9/19
-            </p>
+            <h5 class="blog-preview__title">Blog Post 2</h5>
+            <div class="blog-preview__date">
+              Date posted 12/9/19
+            </div>
             <p class="blog-preview__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua.</p>
           </li>
         </ul>
       </div>
       <div class="main__spacer">
-        <a href="#" class="btn btn-secondary btn-lg">View Blog</a>
+        <a href="#" class="blog-preview__btn btn btn-secondary btn-lg">View Blog</a>
       </div>
     </div>
   </div>
