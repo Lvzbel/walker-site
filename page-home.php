@@ -113,6 +113,23 @@
       </div>
     </div>
   </div>
+
+  <!-- Who is -->
+  <div class="whois">
+    <h2 class="whois__header">Who is Ella Walker</h2>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <img src="<?php echo get_theme_file_uri('/src/images/whois.jpg') ?>" alt="">
+      </div>
+      <div class="col-12 col-md-6">
+        <p>Summary goes here!!!!!! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi sit
+          quam fuga voluptate beatae
+          iste vel. At, facere assumenda? Tenetur repellendus, saepe odit quibusdam reiciendis distinctio possimus porro
+          voluptate.</p>
+      </div>
+      <a href="#" class="btn btn-primary">Learn More</a>
+    </div>
+  </div>
 </div>
 
 <?php get_footer(); ?>
