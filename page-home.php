@@ -119,7 +119,7 @@
     <h2 class="whois__header">Who is Ella Walker</h2>
     <div class="row">
       <div class="col-12 col-md-6">
-        <img src="<?php echo get_theme_file_uri('/src/images/whois.jpg') ?>" alt="">
+        <img class="whois__img" src="<?php echo get_theme_file_uri('/src/images/whois.jpg') ?>" alt="">
       </div>
       <div class="col-12 col-md-6">
         <p>Summary goes here!!!!!! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae eligendi sit
