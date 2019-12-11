@@ -1,3 +1,25 @@
 .footer {
   background-color: $primary;
+  padding: 3rem 0;
+
+  &__header {
+    margin-bottom: 2rem;
+  }
+
+  &__social-list {
+    margin: 0 auto;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+  }
+  &__social {
+    display: block;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: white;
+    padding: 0.25rem 0.75rem;
+    margin-left: 0.5rem;
+  }
 }
