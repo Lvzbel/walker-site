@@ -4,7 +4,7 @@
 <header class="jumbotron header">
   <div class="header__container">
     <h1 class="display-2">Ella Walker </h1>
-    <p class="lead">Country music artist out to change what you expect from country music!</p>
+    <p class="header__lead lead">Country music artist out to change what you expect from country music!</p>
     <a class="btn btn-primary" href="#">Read More</a>
   </div>
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">

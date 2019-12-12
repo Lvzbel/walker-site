@@ -3,6 +3,10 @@
   padding: 0;
   position: relative;
 
+  &__lead {
+    text-align: center;
+  }
+
   &__container {
     position: absolute;
     top: 0;
