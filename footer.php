@@ -17,7 +17,7 @@
             </a></li>
         </ul>
       </div>
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 mt-5 mt-md-0">
         <h5 class="footer__header">For Business inquiries</h5>
         <p> <a class="text-light" href="mailto: ellawalkermanager@gmail.com">ellawalkermanager@gmail.com</a></p>
       </div>
