@@ -126,13 +126,15 @@
         </div>
         <div class="col-12 col-md-6">
           <div class="whois__content">
-            <p class="whois__text">Summary goes here!!!!!! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            <p class="whois__text mt-5 mt-md-0">Summary goes here!!!!!! Lorem, ipsum dolor sit amet consectetur
+              adipisicing
+              elit.
               Recusandae eligendi sit
               quam fuga voluptate beatae
               iste vel. At, facere assumenda? Tenetur repellendus, saepe odit quibusdam reiciendis distinctio possimus
               porro
               voluptate.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, voluptates? Architecto, eligendi
+              Lorem ipsum dolor sit amt consectetur adipisicing elit. Voluptatibus, voluptates? Architecto, eligendi
               assumenda! Ipsa magni ex atque est, dicta cumque ab vitae doloremque molestiae maxime sit numquam quam
               temporibus? Minus!
             </p>
