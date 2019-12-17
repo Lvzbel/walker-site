@@ -111,7 +111,7 @@
         </ul>
       </div>
       <div class="main__spacer">
-        <a href="#" class="blog-preview__btn btn btn-secondary btn-lg">View Blog</a>
+        <a href="<?php echo site_url('/blog'); ?>" class="blog-preview__btn btn btn-secondary btn-lg">View Blog</a>
       </div>
     </div>
   </div>
