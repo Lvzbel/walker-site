@@ -33,3 +33,9 @@ foreach ( $understrap_includes as $file ) {
 	}
 	require_once $filepath;
 }
+
+function my_excerpt_length($length) {
+	return 20;
+	}
+	
+	add_filter('excerpt_length', 'my_excerpt_length');
