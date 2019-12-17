@@ -90,22 +90,24 @@
       </div>
       <div class="main__spacer">
         <ul class="blog-preview">
+          <?php 
+            $homepagePosts = new WP_Query(array(
+              'posts_per_page' => 2
+            ));
+
+            while($homepagePosts->have_posts( )) { 
+              $homepagePosts->the_post(  ); ?>
           <li class="blog-preview__post">
-            <h5 class="blog-preview__title">Blog Post 1</h5>
+            <h5><a class="text-light" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
             <div class="blog-preview__date">
               Date posted 12/9/19
             </div>
-            <p class="blog-preview__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="blog-preview__content">
+              <?php the_excerpt(); ?>
+            </p>
           </li>
-          <li class="blog-preview__post">
-            <h5 class="blog-preview__title">Blog Post 2</h5>
-            <div class="blog-preview__date">
-              Date posted 12/9/19
-            </div>
-            <p class="blog-preview__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.</p>
-          </li>
+          <?php }
+          ?>
         </ul>
       </div>
       <div class="main__spacer">
