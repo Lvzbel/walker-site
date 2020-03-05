@@ -6,7 +6,8 @@
     <div class="row">
       <div class="col-12 col-lg-6">
         <div class="bio__container">
-          <img class="bio__img shadow-lg" src="<?php echo get_theme_file_uri('/src/images/whois.jpg') ?>" alt="">
+          <img class="bio__img mb-4 mb-md-5 mb-lg-0 shadow-lg"
+            src="<?php echo get_theme_file_uri('/src/images/whois.jpg') ?>" alt="">
         </div>
       </div>
       <div class="col-12 col-lg-6 text-light">
