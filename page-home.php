@@ -5,7 +5,7 @@
   <div class="header__container">
     <h1 class="header__header display-2">Ella Walker </h1>
     <p class="header__lead lead">Country music artist out to change what you expect from country music!</p>
-    <a class="btn btn-primary" href="#">Read More</a>
+    <a class="shadow btn-lg btn-primary" href="#">Read More</a>
   </div>
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
