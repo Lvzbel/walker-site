@@ -79,7 +79,7 @@
         </div>
       </div>
       <div class="main__spacer">
-        <a href="#" class="events__btn btn btn-primary btn-lg">View Events</a>
+        <a href="#" class="events__btn shadow-sm btn btn-primary btn-lg">View Events</a>
       </div>
     </div>
     <!-- BLOG POSTS -->
@@ -111,7 +111,8 @@
         </ul>
       </div>
       <div class="main__spacer">
-        <a href="<?php echo site_url('/blog'); ?>" class="blog-preview__btn btn btn-secondary btn-lg">View Blog</a>
+        <a href="<?php echo site_url('/blog'); ?>" class="blog-preview__btn shadow-sm btn btn-secondary btn-lg">View
+          Blog</a>
       </div>
     </div>
   </div>
