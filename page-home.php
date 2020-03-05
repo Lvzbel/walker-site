@@ -125,7 +125,7 @@
       <h2 class="whois__header display-4">Who is Ella Walker</h2>
       <div class="row">
         <div class="col-12 col-md-6">
-          <img class="whois__img shadow" src="<?php echo get_theme_file_uri('/src/images/whois.jpg') ?>" alt="">
+          <img class="whois__img shadow-lg" src="<?php echo get_theme_file_uri('/src/images/whois.jpg') ?>" alt="">
         </div>
         <div class="col-12 col-md-6">
           <div class="whois__content">
@@ -143,7 +143,7 @@
             </p>
           </div>
         </div>
-        <a href="#" class="whois__btn btn btn-primary btn-lg">Learn More</a>
+        <a href="#" class="whois__btn shadow-sm btn btn-primary btn-lg">Learn More</a>
       </div>
     </div>
   </div>
