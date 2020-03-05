@@ -3,7 +3,7 @@
 <div class="container bg-secondary">
   <div class="bio">
     <h1 class="bio__header display-4 text-light">My Biography</h1>
-    <div class="row">
+    <div class="bio__content row">
       <div class="col-12 col-lg-6">
         <div class="bio__container">
           <img class="bio__img mb-4 mb-md-5 mb-lg-0 shadow-lg"
