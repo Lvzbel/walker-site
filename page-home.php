@@ -7,7 +7,7 @@
     <p class="header__lead lead">Country music artist out to change what you expect from country music!</p>
     <a class="shadow btn-lg btn-primary" href="#">Read More</a>
   </div>
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleCaptions" class="header__carousel carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>

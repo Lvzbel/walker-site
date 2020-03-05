@@ -2,6 +2,7 @@
 .header {
   padding: 0;
   position: relative;
+  height: calc(100vh - 56px);
 
   &__header {
     text-align: center;
@@ -27,7 +28,7 @@
   }
 
   &__block {
-    height: 60vh;
+    height: calc(100vh - 56px);
   }
 
   &__background {
