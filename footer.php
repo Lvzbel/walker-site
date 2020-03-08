@@ -4,19 +4,29 @@
       <div class="col-12 col-md-6">
         <h5 class="footer__header">Fallow me on Social Media</h5>
         <ul class="footer__social-list">
-          <li><a href="#" target="_blank" class="footer__social bg-white"><i class="fa fa-bandcamp"
-                aria-hidden="true"></i>
+
+          <li><a href="https://open.spotify.com/album/0ul0UEeriIiUSjzgK9BCNX?si=7Fp0aBPTQwueYZTcKkdaqQ" target="_blank"
+              class="footer__social bg-white"><i class="fa fa-spotify" aria-hidden="true"></i>
             </a></li>
-          <li><a href="https://www.instagram.com/ellawalkermusic_/" target="_blank" class="footer__social bg-white"><i
+
+          <li><a
+              href="https://www.amazon.com/dp/B085MMKNYT/ref=sr_1_2?keywords=Ella+Walker&qid=1583651639&s=dmusic&search-type=ss&sr=1-2"
+              target="_blank" class="footer__social bg-white"><i class="fa fa-amazon" aria-hidden="true"></i>
+            </a></li>
+
+          <li><a href="https://www.instagram.com/ellawalkermusic" target="_blank" class="footer__social bg-white"><i
                 class="fa fa-instagram" aria-hidden="true"></i>
             </a></li>
+
           <li><a href="#" target="_blank" class="footer__social bg-white"><i class="fa fa-facebook-official"
                 aria-hidden="true"></i>
               </i>
             </a></li>
+
           <li><a href="#" target="_blank" class="footer__social bg-white"><i class="fa fa-twitter"
                 aria-hidden="true"></i>
             </a></li>
+
         </ul>
       </div>
       <div class="col-12 col-md-6 mt-5 mt-md-0">
