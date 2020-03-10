@@ -1,9 +1,9 @@
 .disco {
-  padding: 2rem 0;
-  background-color: $primary;
+  padding: 2rem 0 0 0;
+  background-color: $secondary;
 
   &:nth-child(2n) {
-    background-color: $secondary;
+    background-color: $primary;
   }
 
   &__img {
@@ -21,5 +21,16 @@
   &__links {
     display: block;
     list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__linebreak {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: white;
+    margin-top: 2rem;
   }
 }
