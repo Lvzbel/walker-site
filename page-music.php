@@ -8,7 +8,7 @@
 </div>
 
 <div class="container">
-  <div class="disco bg-secondary text-light">
+  <div class="disco text-light">
     <h3 class="display-4 ml-5">My Life</h3>
     <span class="disco__release lead ml-5">Release date: 2018</span>
     <div class="row mt-5">

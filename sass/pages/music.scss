@@ -1,5 +1,10 @@
 .disco {
-  padding: 3rem 0;
+  padding: 2rem 0;
+  background-color: $primary;
+
+  &:nth-child(2n) {
+    background-color: $secondary;
+  }
 
   &__img {
     width: 70%;
