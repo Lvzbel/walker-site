@@ -1,0 +1,20 @@
+.disco {
+  padding: 3rem 0;
+
+  &__img {
+    width: 70%;
+    display: block;
+    margin: auto;
+  }
+
+  &__content {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  &__links {
+    display: block;
+    list-style: none;
+  }
+}
