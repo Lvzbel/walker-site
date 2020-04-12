@@ -1,15 +1,4 @@
 .events {
-  margin-top: 3rem;
-  &__event {
-    display: flex;
-    align-content: center;
-    margin-top: 1rem;
-    padding-left: 2rem;
-    & a {
-      margin-left: 2rem;
-    }
-  }
-
   &__icon {
     margin-right: 1rem;
     font-size: 2rem;
@@ -18,5 +7,12 @@
   &__btn {
     display: table;
     margin: 2rem auto 0 auto;
+  }
+
+  &__date {
+    background-color: lighten($secondary, 10%);
+    display: inline-block;
+    padding: 0.1rem 0.25rem;
+    font-size: 0.8rem;
   }
 }
