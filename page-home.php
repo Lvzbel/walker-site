@@ -54,11 +54,9 @@
         <h3>Most Recent Blog Posts</h3>
         <p>Checkout about writting and more.</p>
       </div>
-      <div class="main__spacer">
-        <ul class="blog-preview">
-          <?php walker_blog_list(); ?>
-        </ul>
-      </div>
+      <ul class="blog-preview">
+        <?php walker_blog_list(); ?>
+      </ul>
       <div class="main__spacer">
         <a href="<?php echo site_url('/blog'); ?>" class="blog-preview__btn shadow-sm btn btn-secondary btn-lg">View
           Blog</a>
