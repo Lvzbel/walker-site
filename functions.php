@@ -50,12 +50,17 @@ function my_excerpt_length($length) {
 			'public' => true,
 			'menu_icon' => 'dashicons-calendar',
 			'supports' => array( 'title', 'editor', 'thumbnail' ),
+			'has_archive' => true,
+			'rewrite' => array(
+				'slug' => 'events'
+			),
 			'labels' => array(
 				'name' => 'Events',
 				'add_new_item' => 'Add New Event',
 				'edit_item' => 'Edit Event',
 				'all_items' => 'All Events',
-				'singular_name' => 'Event'
+				'singular_name' => 'Event',
+				'archives' => 'events'
 			)
 		));
 	}
