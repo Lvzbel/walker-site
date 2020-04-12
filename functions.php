@@ -39,3 +39,22 @@ function my_excerpt_length($length) {
 	}
 	
 	add_filter('excerpt_length', 'my_excerpt_length');
+
+	// Adding custom post type: Events
+	function walker_post_types()
+	{
+		register_post_type('walker-events', array(
+			'public' => true,
+			'menu_icon' => 'dashicons-calendar',
+			'supports' => array( 'title', 'editor', 'thumbnail' ),
+			'labels' => array(
+				'name' => 'Events',
+				'add_new_item' => 'Add New Event',
+				'edit_item' => 'Edit Event',
+				'all_items' => 'All Events',
+				'singular_name' => 'Event'
+			)
+		));
+	}
+
+	add_action('init', 'walker_post_types');
