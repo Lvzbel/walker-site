@@ -1,5 +1,6 @@
 .blog-preview {
   list-style-type: none;
+  padding: 0;
 
   &__date {
     background-color: lighten($primary, 10%);
