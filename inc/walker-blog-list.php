@@ -4,8 +4,7 @@ function walker_blog_list(){
     'posts_per_page' => 3
   ));
 
-  while($homepagePosts->have_posts( )) { 
-              $homepagePosts->the_post(  ); ?>
+  while($homepagePosts->have_posts( )): $homepagePosts->the_post(  ); ?>
 
 <li class="blog-preview__post">
   <h5><a class="text-light" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
@@ -17,5 +16,5 @@ function walker_blog_list(){
   </p>
 </li>
 
-<?php }
+<?php endwhile;
 }  ?>
