@@ -15,7 +15,7 @@
   </div>
   <div class="ml-5">
     <div class="events__date">
-      Date: <?= get_field('date') ?>
+      Event Date: <?= get_field('date') ?>
     </div>
     <?php the_excerpt(); ?>
   </div>
