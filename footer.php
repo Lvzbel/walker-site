@@ -2,7 +2,7 @@
   <div class="container text-light">
     <div class="row">
       <div class="col-12 col-md-6">
-        <h5 class="footer__header">Fallow me on Social Media</h5>
+        <h5 class="footer__header">Follow me on Social Media</h5>
         <ul class="footer__social-list">
 
           <li><a href="https://open.spotify.com/album/0ul0UEeriIiUSjzgK9BCNX?si=7Fp0aBPTQwueYZTcKkdaqQ" target="_blank"
