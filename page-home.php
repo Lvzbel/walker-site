@@ -41,30 +41,7 @@
       </div>
       <div class="main__spacer">
         <div class="events">
-          <div class="events__event">
-            <i class="events__icon fa fa-music" aria-hidden="true"></i>
-            <p class="events__date">
-              12/12/2019</p>
-            <a href="#" class="text-light">National Orange Show Event Center</a>
-          </div>
-          <div class="events__event">
-            <i class="events__icon fa fa-music" aria-hidden="true"></i>
-            <p class="events__date">
-              12/12/2019</p>
-            <a href="#" class="text-light">National Orange Show Event Center</a>
-          </div>
-          <div class="events__event">
-            <i class="events__icon fa fa-music" aria-hidden="true"></i>
-            <p class="events__date">
-              12/12/2019</p>
-            <a href="#" class="text-light">National Orange Show Event</a>
-          </div>
-          <div class="events__event">
-            <i class="events__icon fa fa-music" aria-hidden="true"></i>
-            <p class="events__date">
-              12/12/2019</p>
-            <a href="#" class="text-light">National Orange Show Event Center</a>
-          </div>
+          <?php walker_event_list(); ?>
         </div>
       </div>
       <div class="main__spacer">
@@ -81,7 +58,7 @@
         <ul class="blog-preview">
           <?php 
             $homepagePosts = new WP_Query(array(
-              'posts_per_page' => 2
+              'posts_per_page' => 3
             ));
 
             while($homepagePosts->have_posts( )) { 
