@@ -3,8 +3,8 @@
 <!-- HEADER -->
 <header class="jumbotron header">
   <div class="header__container">
-    <h1 class="header__header display-1">Ella Walker </h1>
-    <p class="header__lead lead">Country music artist out to change what you expect from country music!</p>
+    <h1 class="header__header display-1"><?php the_field('main_header'); ?></h1>
+    <p class="header__lead lead"><?php the_field('main_header_lead'); ?></p>
     <a class="shadow btn btn-lg btn-primary" href="#">Read More</a>
   </div>
   <div id="carouselExampleCaptions" class="header__carousel carousel slide" data-ride="carousel">
@@ -15,18 +15,15 @@
     </ol>
     <div class="carousel-inner">
       <div class="header__block carousel-item active">
-        <div style="background-image: url(<?php echo get_theme_file_uri('/src/images/jumbo-1.jpg') ?>);"
-          class="header__background">
+        <div style="background-image: url(<?= get_field('main_header_img_1')['url']; ?>);" class="header__background">
         </div>
       </div>
       <div class="header__block carousel-item">
-        <div style="background-image: url(<?php echo get_theme_file_uri('/src/images/jumbo-2.jpg') ?>);"
-          class="header__background">
+        <div style="background-image: url(<?= get_field('main_header_img_2')['url']; ?>);" class="header__background">
         </div>
       </div>
       <div class="header__block carousel-item">
-        <div style="background-image: url(<?php echo get_theme_file_uri('/src/images/jumbo-3.jpg') ?>);"
-          class="header__background">
+        <div style="background-image: url(<?= get_field('main_header_img_3')['url']; ?>);" class="header__background">
         </div>
       </div>
     </div>
