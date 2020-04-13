@@ -3,7 +3,7 @@
   <h1 class="text-primary my-5">All Events</h1>
   <?php while(have_posts()): the_post(); ?>
   <a class="d-block mx-auto" href="<?php the_permalink() ?>">
-    <?php the_post_thumbnail('medium_large', array('class' => 'd-block mx-auto img-fluid shadow')); ?>
+    <?php the_post_thumbnail('medium', array('class' => 'd-block mx-auto img-fluid shadow')); ?>
   </a>
   <h2>
     <a href="<?php the_permalink() ?>">

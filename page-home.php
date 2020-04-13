@@ -5,7 +5,7 @@
   <div class="header__container">
     <h1 class="header__header display-1"><?php the_field('main_header'); ?></h1>
     <p class="header__lead lead"><?php the_field('main_header_lead'); ?></p>
-    <a class="shadow btn btn-lg btn-primary" href="#">Read More</a>
+    <a class="shadow btn btn-lg btn-primary" href="<?php echo site_url('/biography'); ?>">Read More</a>
   </div>
   <div id="carouselExampleCaptions" class="header__carousel carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -45,7 +45,8 @@
         </div>
       </div>
       <div class="main__spacer">
-        <a href="#" class="events__btn shadow-sm btn btn-primary btn-lg">View Events</a>
+        <a href="<?php echo site_url('/events'); ?>" class="events__btn shadow-sm btn btn-primary btn-lg">View
+          Events</a>
       </div>
     </div>
     <!-- BLOG POSTS -->
@@ -62,6 +63,13 @@
           Blog</a>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- Instagram Feed -->
+<div class="container">
+  <div class="row my-5">
+    <?php echo do_shortcode("[instagram-feed]"); ?>
   </div>
 </div>
 
@@ -90,7 +98,8 @@
             </p>
           </div>
         </div>
-        <a href="#" class="whois__btn shadow-sm btn btn-primary btn-lg">Learn More</a>
+        <a href="<?php echo site_url('/biography'); ?>" class="whois__btn shadow-sm btn btn-primary btn-lg">Learn
+          More</a>
       </div>
     </div>
   </div>
