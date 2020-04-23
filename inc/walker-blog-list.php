@@ -20,5 +20,5 @@ function walker_blog_list(){
   </div>
 </li>
 
-<?php endwhile;
+<?php endwhile; wp_reset_postdata();
 }  ?>
