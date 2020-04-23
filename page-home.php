@@ -75,31 +75,22 @@
 
 <div class="container">
   <div class="row">
+
+
     <!-- Who is -->
     <div class="whois">
-      <h2 class="whois__header display-4">Who is Ella Walker</h2>
       <div class="row">
         <div class="col-12 col-md-6">
-          <img class="whois__img shadow-lg" src="<?php echo get_theme_file_uri('/src/images/whois.jpg') ?>" alt="">
+          <img class="whois__img shadow-lg" src="<?= get_field('about_image_home')['url']; ?>" alt="">
         </div>
         <div class="col-12 col-md-6">
           <div class="whois__content">
-            <p class="whois__text mt-5 mt-md-0">Summary goes here!!!!!! Lorem, ipsum dolor sit amet consectetur
-              adipisicing
-              elit.
-              Recusandae eligendi sit
-              quam fuga voluptate beatae
-              iste vel. At, facere assumenda? Tenetur repellendus, saepe odit quibusdam reiciendis distinctio possimus
-              porro
-              voluptate.
-              Lorem ipsum dolor sit amt consectetur adipisicing elit. Voluptatibus, voluptates? Architecto, eligendi
-              assumenda! Ipsa magni ex atque est, dicta cumque ab vitae doloremque molestiae maxime sit numquam quam
-              temporibus? Minus!
-            </p>
+            <h2 class="whois__header"><?php the_field('about_title_home'); ?></h2>
+            <p class="whois__text mt-5 mt-md-0"><?php the_field('about_description_home'); ?></p>
+            <a href="<?php echo site_url('/biography'); ?>" class="whois__btn shadow-sm btn btn-primary btn-lg">Learn
+              More</a>
           </div>
         </div>
-        <a href="<?php echo site_url('/biography'); ?>" class="whois__btn shadow-sm btn btn-primary btn-lg">Learn
-          More</a>
       </div>
     </div>
   </div>
