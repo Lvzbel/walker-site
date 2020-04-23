@@ -85,8 +85,8 @@
         </div>
         <div class="col-12 col-md-6">
           <div class="whois__content">
-            <h2 class="whois__header"><?php the_field('about_title_home'); ?></h2>
-            <p class="whois__text mt-5 mt-md-0"><?php the_field('about_description_home'); ?></p>
+            <h2 class="whois__header mt-4 my-md-0"><?php the_field('about_title_home'); ?></h2>
+            <p class="whois__text mt-2 my-md-4"><?php the_field('about_description_home'); ?></p>
             <a href="<?php echo site_url('/biography'); ?>" class="whois__btn shadow-sm btn btn-primary btn-lg">Learn
               More</a>
           </div>
