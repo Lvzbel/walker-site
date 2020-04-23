@@ -20,6 +20,6 @@
     <?php the_excerpt(); ?>
   </div>
 </div>
-<?php endwhile;
+<?php endwhile; wp_reset_postdata();
   }
 ?>
