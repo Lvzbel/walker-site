@@ -1,0 +1,21 @@
+.blog {
+  &__content {
+    margin: 5rem auto;
+  }
+  &__post {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+
+  &__navigation {
+    display: flex;
+    justify-content: center;
+  }
+}
