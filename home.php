@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <div class="blog container">
+  <h1 class="text-primary mt-5">Blog Posts</h1>
   <div class="blog__content row d-flex justify-content-around">
 
     <?php while(have_posts()): the_post(); ?>
