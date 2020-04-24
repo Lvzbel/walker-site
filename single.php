@@ -14,38 +14,31 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <div class="wrapper" id="single-wrapper">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+  <div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
-		<div class="row">
+    <div class="row">
 
-			<!-- Do the left sidebar check -->
-			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
+      <!-- Do the left sidebar check -->
+      <?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
-			<main class="site-main" id="main">
+      <main class="site-main" id="main">
 
-				<?php while ( have_posts() ) : the_post(); ?>
+        <?php while ( have_posts() ) : the_post(); ?>
 
-					<?php get_template_part( 'loop-templates/content', 'single' ); ?>
+        <div class="container my-5">
+          <?php the_post_thumbnail('large', array('class' => 'd-block mx-auto shadow rounded')) ?>
 
-					<?php understrap_post_nav(); ?>
+          <h1 class="text-primary my-4"><?php the_title(); ?></h1>
+          <?php the_content() ?>
+        </div>
 
-					<?php
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-					?>
+        <?php endwhile; // end of the loop. ?>
 
-				<?php endwhile; // end of the loop. ?>
+      </main><!-- #main -->
 
-			</main><!-- #main -->
+    </div><!-- .row -->
 
-			<!-- Do the right sidebar check -->
-			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
-
-		</div><!-- .row -->
-
-	</div><!-- #content -->
+  </div><!-- #content -->
 
 </div><!-- #single-wrapper -->
 
