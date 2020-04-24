@@ -5,9 +5,12 @@
     <?php while(have_posts()): the_post();?>
 
     <div class="contact__form row d-flex justify-content-center">
-      <h1><?php the_title(); ?></h1>
-      <div class="col-11">
-        <?php the_content(); ?>
+
+      <div class="col-12 d-flex justify-content-center">
+        <div class="rounded contact__content px-1 px-md-4 my-4">
+          <h1 class="my-3"><?php the_title(); ?></h1>
+          <?php the_content(); ?>
+        </div>
       </div>
     </div>
 
