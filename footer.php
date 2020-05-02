@@ -6,25 +6,27 @@
         <ul class="footer__social-list">
 
           <li><a href="https://open.spotify.com/album/0ul0UEeriIiUSjzgK9BCNX?si=7Fp0aBPTQwueYZTcKkdaqQ" target="_blank"
-              class="footer__social bg-white"><i class="fa fa-spotify" aria-hidden="true"></i>
+              rel="noreferrer" aria-label="spotify link" class="footer__social bg-white"><i class="fa fa-spotify"
+                aria-hidden="true"></i>
             </a></li>
 
-          <li><a
+          <li><a rel="noreferrer"
               href="https://www.amazon.com/dp/B085MMKNYT/ref=sr_1_2?keywords=Ella+Walker&qid=1583651639&s=dmusic&search-type=ss&sr=1-2"
-              target="_blank" class="footer__social bg-white"><i class="fa fa-amazon" aria-hidden="true"></i>
+              aria-label="amazon link" target="_blank" class="footer__social bg-white"><i class="fa fa-amazon"
+                aria-hidden="true"></i>
             </a></li>
 
           <li><a href="https://www.instagram.com/ellawalkermusic" target="_blank" class="footer__social bg-white"><i
-                class="fa fa-instagram" aria-hidden="true"></i>
+                aria-label="instagram link" class="fa fa-instagram" aria-hidden="true"></i>
             </a></li>
 
-          <li><a href="#" target="_blank" class="footer__social bg-white"><i class="fa fa-facebook-official"
-                aria-hidden="true"></i>
+          <li><a rel="noreferrer" href="#" target="_blank" class="footer__social bg-white"><i
+                class="fa fa-facebook-official" aria-label="facebook link" aria-hidden="true"></i>
               </i>
             </a></li>
 
-          <li><a href="#" target="_blank" class="footer__social bg-white"><i class="fa fa-twitter"
-                aria-hidden="true"></i>
+          <li><a rel="noreferrer" href="#" target="_blank" class="footer__social bg-white"><i class="fa fa-twitter"
+                aria-label="twitter link" aria-hidden="true"></i>
             </a></li>
 
         </ul>
