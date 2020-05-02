@@ -8,6 +8,10 @@
   &__header {
     text-align: center;
     opacity: 0.8;
+
+    @media screen and (max-width: 576px) {
+      font-size: 5rem;
+    }
   }
 
   &__lead {
