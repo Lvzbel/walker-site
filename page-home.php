@@ -81,7 +81,7 @@
     <div class="whois">
       <div class="row">
         <div class="col-12 col-md-6">
-          <img class="whois__img shadow-lg" src="<?= get_field('about_image_home')['url']; ?>" alt="">
+          <img class="whois__img shadow-lg image-fluid" src="<?= get_field('about_image_home')['url']; ?>" alt="">
         </div>
         <div class="col-12 col-md-6">
           <div class="whois__content text-center">
