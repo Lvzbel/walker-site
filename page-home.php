@@ -32,7 +32,7 @@
 
 <!--- Main Body -->
 <div class="container">
-  <div class="row">
+  <div class="row mb-md-2">
     <!-- EVENTS -->
     <div class="main__events main__block col-12 col-md-6">
       <div class="main__spacer">
@@ -67,11 +67,11 @@
 </div>
 
 <!-- Instagram Feed -->
-<div class="container">
+<!-- <div class="container">
   <div class="row my-5">
     <?php echo do_shortcode("[instagram-feed]"); ?>
   </div>
-</div>
+</div> -->
 
 <div class="container">
   <div class="row">
