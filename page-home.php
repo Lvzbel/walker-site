@@ -88,8 +88,7 @@
             <h2 class="whois__header mt-4 my-md-0 mx-auto mx-md-0"><?php the_field('about_title_home'); ?></h2>
             <p class="whois__text mt-2 my-md-4"><?php the_field('about_description_home'); ?></p>
             <a href="<?php echo site_url('/biography'); ?>"
-              class="whois__btn shadow-sm btn btn-primary btn-lg mx-auto mx-md-0">Learn
-              More</a>
+              class="whois__btn shadow-sm btn btn-primary btn-lg mx-auto mx-md-0">Read Biography</a>
           </div>
         </div>
       </div>
