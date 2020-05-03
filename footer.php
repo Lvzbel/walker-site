@@ -16,8 +16,9 @@
                 aria-hidden="true"></i>
             </a></li>
 
-          <li><a href="https://www.instagram.com/ellawalkermusic" target="_blank" class="footer__social bg-white"><i
-                aria-label="instagram link" class="fa fa-instagram" aria-hidden="true"></i>
+          <li><a rel="noreferrer" href="https://www.instagram.com/ellawalkermusic" target="_blank"
+              class="footer__social bg-white"><i aria-label="instagram link" class="fa fa-instagram"
+                aria-hidden="true"></i>
             </a></li>
 
           <li><a rel="noreferrer" href="#" target="_blank" class="footer__social bg-white"><i
