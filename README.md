@@ -4,7 +4,6 @@ This project is a Wordpress theme develop for a Country Singer who needed a site
 
 ## Google Lighthouse Score
 
-Inline-style:
 ![alt text](https://i.imgur.com/JgFzHWt.png "Google Lighthouse Score")
 
 ## Technologies Used
