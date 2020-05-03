@@ -2,6 +2,11 @@
 
 This project is a Wordpress theme develop for a Country Singer who needed a site where she could have a small blog, announce events, and keep track of her discography.
 
+## Google Lighthouse Score
+
+Inline-style:
+![alt text](https://i.imgur.com/JgFzHWt.png "Google Lighthouse Score")
+
 ## Technologies Used
 
 - UnderStrap (starter theme)
